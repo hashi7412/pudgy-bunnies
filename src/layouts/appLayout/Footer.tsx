@@ -1,7 +1,8 @@
 import React from "react";
-import { FaInstagram, FaTelegram, FaTwitter } from "react-icons/fa";
+// import { FaInstagram, FaTelegram, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaTelegram } from "react-icons/fa";
 import { FaDiscord, FaXTwitter } from "react-icons/fa6";
-import { SiOpensea } from "react-icons/si";
+// import { SiOpensea } from "react-icons/si";
 import * as S from "./layout.styles";
 
 export const Footer: React.FC = () => {

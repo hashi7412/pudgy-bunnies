@@ -5,12 +5,11 @@ import * as Page from "./pages";
 
 const App: React.FC = () => {
   return (
-    // <Router>
-    //   <Routes>
-    //     <Route element={<Page.MainPage />} path="/" />
-    //   </Routes>
-    // </Router>
-    <></>
+    <Router>
+      <Routes>
+        <Route element={<Page.MainPage />} path="/" />
+      </Routes>
+    </Router>
   );
 };
 
